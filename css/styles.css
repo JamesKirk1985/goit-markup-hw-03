@@ -308,6 +308,9 @@ background-color: var(--ocean);
     display: block;
 }
 /* main-portfolio */ 
+.portfolio {
+    padding-top: 96px;
+}
 .filters-list {
     display: flex;
     justify-content: center;
@@ -315,6 +318,7 @@ background-color: var(--ocean);
     margin-right: auto;
     margin-left: auto;
     padding-top: 96px;
+    margin-bottom: 72px
 }
 .filters-list button {
     display: block;
