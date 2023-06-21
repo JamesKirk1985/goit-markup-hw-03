@@ -204,8 +204,8 @@ background-color: var(--ocean);
     color: var(--grey-blue)
 }
 /* section-what are we doin */
-.What-doing {
-    padding-bottom: 120px;
+.what-doing {
+    padding-bottom: 120px;    
 }
 .what-title {
     font-weight: 700;
