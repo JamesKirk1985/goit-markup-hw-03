@@ -67,6 +67,7 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--background-dark);
+    padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -81,6 +82,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-blue);
+    margin-right: 76px
 }
 .logo-studio {
     color: var(--background-dark);
