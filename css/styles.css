@@ -158,14 +158,31 @@ img {
 .hero-button:focus {
 background-color: var(--ocean);
 }
+/* pattern */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* section-about */
 .about-webstudio {
     padding-top: 140px;
+    padding: 120px 0;
 }
 .about-list {
     display: flex;
-    gap: 0 24px;
+    gap: 24px;
     margin-bottom: 120px;
+}
+.about-list-items {
+    width: calc((100% - 72px) / 4);
 }
 .about-main-title {
     margin-right: auto;
@@ -187,6 +204,9 @@ background-color: var(--ocean);
     color: var(--grey-blue)
 }
 /* section-what are we doin */
+.What-doing {
+    padding-bottom: 120px;
+}
 .what-title {
     font-weight: 700;
     font-size: 36px;
@@ -196,6 +216,7 @@ background-color: var(--ocean);
     text-transform: capitalize;
     line-height: 1.11;
     color: var(--background-dark);
+    margin-bottom: 72px;
 }
 .what-list {
     margin-top: 72px;
