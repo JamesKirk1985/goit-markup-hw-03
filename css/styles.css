@@ -336,11 +336,13 @@ background-color: var(--ocean);
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
+    padding-bottom: 120px;
 }
 .filters-list button:hover,
 .filters-list button:focus {
     color: #ffffff;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .images-title {
     font-weight: 500;
