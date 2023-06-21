@@ -201,7 +201,7 @@ background-color: var(--ocean);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--grey-blue)
+    color: var(--grey-blue);
 }
 /* section-what are we doin */
 .what-doing {
@@ -228,6 +228,7 @@ background-color: var(--ocean);
 /* section-team */
 .team {
     background-color: var(--cloud);
+    padding: 120px 0;
 }
 .team-title {
     font-weight: 700;
@@ -254,10 +255,28 @@ background-color: var(--ocean);
     text-align: center;
     letter-spacing: 0.02em;
     background-color: var(--white);
+    border-radius: 0px 0px 4px 4px;
 }
-.employee img,
-.employee p {
-    margin-bottom: 32px;
+.name-position {
+    padding: 32px 16px;
+}
+.name-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-dark);
+    margin-bottom: 8px;
+}
+.position-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--grey-blue);
+
 }
 /* footer */
 .footer {
