@@ -82,7 +82,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-blue);
-    margin-right: 76px
+    margin-right: 76px;
 }
 .logo-studio {
     color: var(--background-dark);
