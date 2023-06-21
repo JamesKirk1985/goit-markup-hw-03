@@ -281,12 +281,15 @@ background-color: var(--ocean);
 /* footer */
 .footer {
     background-color: var(--background-dark);
+    padding: 100px 0;
 }
 .footer-link {
     display: block;
     color: var(--brand-color-blue);
     padding-top: 101.5px;
     margin-bottom: 17.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-studio {
     color: var(--cloud);
