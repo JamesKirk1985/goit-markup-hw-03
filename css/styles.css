@@ -356,7 +356,6 @@ background-color: var(--ocean);
     display: flex;
     flex-wrap: wrap;
     gap: 76px 24px;
-    width: calc((100%-48px)/3);
     padding-top: 52px;
     padding-bottom: 120px;
     row-gap: 48px;
@@ -369,10 +368,4 @@ background-color: var(--ocean);
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.image-sheet h2 {
-    margin-top: 32px;
-    margin-bottom: 8px;
-}
-.image-sheet p {
-    padding-bottom: 32px;
-}
+
