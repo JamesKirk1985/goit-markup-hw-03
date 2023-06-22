@@ -51,7 +51,6 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 76px;
 }
 .nav-list {
     display: flex;
@@ -117,7 +116,6 @@ img {
 /* Main-index */
 .main-hero {
    background-color: var(--background-dark);
-   height: 600px;
    padding: 188px 0;
 }   
 .hero-title {
@@ -127,7 +125,6 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-top: 188px;
     margin-right: auto;
     margin-left: auto;
     width: 496px;
@@ -179,7 +176,6 @@ background-color: var(--ocean);
 .about-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
 }
 .about-list-items {
     width: calc((100% - 72px) / 4);
@@ -219,11 +215,8 @@ background-color: var(--ocean);
     margin-bottom: 72px;
 }
 .what-list {
-    margin-top: 72px;
     display: flex;
     gap: 24px;
-    justify-items: center;
-    padding-bottom: 120px;
 }
 /* section-team */
 .team {
@@ -239,14 +232,12 @@ background-color: var(--ocean);
     text-transform: capitalize;
     line-height: 1.11;
     color: var(--background-dark);
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-list {
     display: flex;
     gap: 24px;
     justify-items: center;
-    padding-bottom: 120px;
 }
 .employee {
     font-weight: 500;
@@ -281,10 +272,8 @@ background-color: var(--ocean);
 /* footer */
 .footer {
     background-color: var(--background-dark);
-    padding: 100px 0;
 }
 .footer-link {
-    display: block;
     color: var(--brand-color-blue);
     padding-top: 101.5px;
     margin-bottom: 17.5px;
@@ -304,7 +293,6 @@ background-color: var(--ocean);
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    padding-bottom: 100px;
     display: block;
 }
 /* main-portfolio */ 
@@ -318,7 +306,6 @@ background-color: var(--ocean);
     gap: 24px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 96px;
     margin-bottom: 72px
 }
 .filters-list button {
@@ -356,8 +343,6 @@ background-color: var(--ocean);
     display: flex;
     flex-wrap: wrap;
     gap: 76px 24px;
-    padding-top: 52px;
-    padding-bottom: 120px;
     row-gap: 48px;
 }
 .card-list-item {
