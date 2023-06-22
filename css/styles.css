@@ -272,7 +272,8 @@ background-color: var(--ocean);
 /* footer */
 .footer {
     background-color: var(--background-dark);
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-link {
     color: var(--brand-color-blue);
